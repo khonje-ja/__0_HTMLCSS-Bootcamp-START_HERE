@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Homepage</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Font Styles -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab" />
+
+  <!-- Other Styles -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/common.css" />
+  <link rel="stylesheet" href="styles/nav.css" />
+  <link rel="stylesheet" href="styles/homepage.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="styles/skewed-header.css" />
+</head>
+
+<!-- Comments entered by pressing 'Ctr + /' -->
+
+<body>
+  <div class="navigation-wrapper">
+    <!-- This div has 3 main div inside: left, centre and right -->
+
+    <div class="left-column">
+      <div class="icon">
+        <i class="fas fa-phone-volume"></i>
+        <!-- icon from Fony Awesome link above-->
+      </div>
+
+      <div class="contact-hours-wrapper">
+        <div class="phone">555 555 5555</div>
+        <div class="hours">10 AM - 5 PM</div>
+      </div>
+    </div>
+
+    <div class="center-column">
+      <div class="banner-image">
+        <img src="images/backgrounds/JAFRALOGO.png" alt="Logo" />
+      </div>
+
+      <!-- Link wrapper  shd only have links-->
+      <div class="links-wrapper">
+        <div class="nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="courses.html">Courses</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="products.html">Products</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="about.html">About</a>
+        </div>
+        <!-- <div class="nav-link">
+          <a href="menu.html">Menu</a>
+        </div> -->
+
+        <div class="nav-link">
+          <a href="contact.html">Contact</a>
+        </div>
+
+        <div class="nav-link" id="search">
+          <label for="input">Search</label>
+          <input id="input" type="search" autocomplete="off" spellcheck="false" role="combobox"
+            placeholder="Search Google or type a URL" aria-live="polite">
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Address -->
+    <div class="right-column">
+      <div class="address-wrapper">
+        <a href="contact.html">
+          123 Street <br />
+          Wales 2, Kawale
+        </a>
+      </div>
+
+      <div class="contact-icon">
+        <a href="contact.html">
+          <i class="fas fa-map-marker-alt"></i>
+          <!--move map icn to then end of address-->
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-section">
+    <div class="top-heading">
+      <h1>UNLOCK the Future</h1>
+    </div>
+
+    <div class="bottom-heading">
+      <h3>Coding fuel</h3>
+    </div>
+  </div>
+
+  <!-- Used for middle section of the page with icons -->
+  <div class="features-section">
+    <div class="columns-wrapper">
+      <div class="column">
+        <i class="fas fa-graduation-cap"></i> <!--icons from: https://fontawesome.com/icons-->
+        <p>We Train!</p>
+
+        <p>Job ready, relevant skills in the 21st Century.</p>
+      </div>
+
+      <div class="column">
+        <i class="fas fa-solid fa-code"></i>
+        <p>We Support</p>
+        <p>Continuous support to Learners</p>
+      </div>
+
+      <div class="column">
+        <i class="fas fa-parachute-box"></i>
+        <p>We Supply</p>
+        <p>High quality, genuine Laptops, Tablets, Mobile Phones.</p>
+      </div>
+
+      <div class="column">
+        <i class="fas fa-chart-line"></i>
+        <p>We Deliver</p>
+        <p>Prfessional skills and knowledge in IT and IT related personal equipments.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Adding Google map to webpage -->
+  <div>
+    <!-- An HTML iframe is used to display a web page within a web page (embed another document within the current document) -->
+    <!-- The height and width attributes are used to specify the size of the iframe. -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d30972.499127672483!2d33.776727711345764!3d-13.984633737681907!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1921d31ffc299805%3A0x4b7eb9f20a03ff9!2sLilongwe%2C%20Malawi!5e0!3m2!1sen!2suk!4v1669645492417!5m2!1sen!2suk"
+      width="100%" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div class="logo-footer">
+        <img src="images/backgrounds/JAFRALOGO.png" alt="JaFra Innovations logo" />
+      </div>
+
+      <div class="footer-phone-hours">
+        <span class="phone"> 555 555 5555 </span>
+
+        <span class="hours"> 10 am - 5 pm </span>
+      </div>
+
+      <!-- Link wrapper  shd only have links-->
+      <div class="links-wrapper">
+        <div class="nav-link">
+          <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="courses.html">Courses</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="products.html">Products</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="about.html">About</a>
+        </div>
+
+        <div class="nav-link">
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="social-media-icons-wrapper">
+        <a href="#">
+          <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="#">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </div>
+      <div class="copyright-wrapper">
+        &copy; 2023 JaFra &#124; All rights reserved
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+<!-- STOP: 08. How to Import and Use Custom Fonts in HTML -->
+
+<!-- <i class="fas fa-laptop"></i> -->
+<!-- <i class="fas fa-desktop"></i> -->
+<!-- <i class="fas fa-mobile-screen-button"></i> -->

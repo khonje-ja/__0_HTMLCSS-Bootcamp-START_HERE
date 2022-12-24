@@ -1,0 +1,29 @@
+/* Page container style*/
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page-container > .content-wrapper {
+  width: 1000px;
+}
+
+.page-container > .content-wrapper > #study {
+  width: 350px;
+  margin: 23px 40px 20px 0px;
+  float: left; /* decide the position for image*/
+  border: 1px solid #175c1d;
+}
+
+.page-container > .content-wrapper > #Reading {
+  width: 350px;
+  margin: 25px 20px 20px 23px;
+  float: right; /* decide the position for image*/
+  border: 1px solid #175c1d;
+}
+
+.page-container > .content-wrapper > p {
+  letter-spacing: 1px;
+  line-height: 25px;
+}
